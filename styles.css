@@ -1,0 +1,18 @@
+/* this file sets the styles for the popup page (when the extension is clicked). */
+*{
+  /* resets default margin and padding values to 0px for all elements for easier element spacing. */
+  margin: 0px;
+  padding: 0px;
+  outline: 1px solid red;
+
+}
+body{
+  background-color: #28536B;
+  color: #C1CFDA;
+  width: 250px;
+  height: 400px;
+}
+header{
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+}
