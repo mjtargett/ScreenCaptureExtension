@@ -3,10 +3,33 @@
     "name": "Screen Capture",
     "description": "Takes a screenshot of the current webpage, then downloads it as a jpg.",
     "version": "1.0",
+    "author": "Michael Targett",
+    "permissions": ["activeTab", "storage", "scripting"],
+
     "icons": {
       "16": "/icons/icon16.png",
+      "19": "/icons/icon19.png",
       "32": "/icons/icon32.png",
       "48": "/icons/icon48.png",
       "128": "/icons/icon128.png"
-    }
+    },
+
+    "action": {
+      "default_icon": {
+          "16": "/icons/icon16.png",
+          "19": "/icons/icon19.png",
+          "32": "/icons/icon32.png",
+          "48": "/icons/icon48.png",
+          "128": "/icons/icon128.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Screen Capture"
+    },
+
+    "content_scripts": [
+      {
+      "js": ["currentsite.js"]
+      }
+    ]
+
   }
