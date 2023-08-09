@@ -28,7 +28,7 @@
 
     "content_scripts": [
       {
-      "js": ["currentsite.js"]
+      "js": ["currentsite.js","changeddirectory.js"]
       }
     ]
 
