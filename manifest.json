@@ -28,7 +28,8 @@
 
     "content_scripts": [
       {
-        "js": ["currentsite.js","changedirectory.js"]
+        "js": ["currentsite.js","changesite.js"],
+        "css": ["styles.css"]
       }
     ]
 
