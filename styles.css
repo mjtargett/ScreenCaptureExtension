@@ -24,20 +24,21 @@ h3, h2{
   letter-spacing: 1px;
   font-weight: 500;
 }
-#footer-buttons button{
+#directory-button{
   position: absolute;
-  height: 30px;
+  height: 40px;
   bottom: 5px;
+  width: 150px;
+  left: 15px;
   background-color: #505161;
   color: #ffffffe7;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
-#directory-button{
-  width: 150px;
-  left: 10px;
-}
-#github-button{
-  width: 70px;
-  right: 10px;
+#github-link{
+  position: relative;
+  top: 305px;
+  left: 185px;
+  cursor: pointer;
 }
