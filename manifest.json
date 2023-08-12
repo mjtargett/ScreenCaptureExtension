@@ -26,9 +26,8 @@
       "default_title": "Screen Capture"
     },
 
-    "content_scripts": [{
+    "web_accessible_resources": [{
         "matches": ["<all_urls>"],
-        "js": ["currentsite.js","changesite.js"],
-        "css": ["styles.css"]
+        "resources": []
     }]
   }
