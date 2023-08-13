@@ -3,6 +3,7 @@
   /* resets default margin and padding values to 0px for all elements for easier element spacing. */
   margin: 0px;
   padding: 0px;
+  position: relative;
 }
 body{
   width: 250px;
@@ -24,21 +25,38 @@ h3, h2{
   letter-spacing: 1px;
   font-weight: 500;
 }
-#directory-button{
+.clickable{
   position: absolute;
-  height: 40px;
-  bottom: 5px;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+#screencapture-logo{
+  position: absolute;
+  bottom: 160px;
+  right: 58px;
+  height: 150px;
   width: 150px;
+}
+#screenshot-button{
+  bottom: 75px;
+  right: 25px;
+  height: 50px;
+  width: 200px;
+  background-color: #bd2424;
+  color: #ffffffe7;
+}
+#directory-button{
+  height: 40px;
+  width: 150px;
+  bottom: 5px;
   left: 15px;
   background-color: #505161;
   color: #ffffffe7;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  cursor: pointer;
 }
 #github-link{
-  position: relative;
-  top: 305px;
-  left: 185px;
-  cursor: pointer;
+  bottom: 9px;
+  right: 26px;
+  width: 37px;
+  height: 37px;
 }
