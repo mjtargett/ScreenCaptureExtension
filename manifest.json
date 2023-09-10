@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Screen Capture",
-    "description": "Takes a screenshot of the current webpage, then downloads it as a jpg.",
+    "description": "Takes a screenshot of the current webpage, then downloads it as a png.",
     "version": "1.0",
     "author": "Michael Targett",
     "permissions": ["activeTab", "storage", "scripting", "tabs", "downloads"],
